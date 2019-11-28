@@ -29,7 +29,7 @@ The trained model is deployed by creating API for the model, using Flask, the Py
 the .ipynb files to .py files nbcovert is used.
 
 ```python
-jupyter nbconvert \-- to script *.ipynb
+jupyter nbconvert -- to script *.ipynb
 ```
 
 ## Results
@@ -58,4 +58,4 @@ JSON Input to API
 ![api](https://user-images.githubusercontent.com/58266508/69785749-dc05c900-11de-11ea-995e-8a2540f727a7.JPG)
 
 Response of API
-
+![api1](https://user-images.githubusercontent.com/58266508/69786094-ba591180-11df-11ea-875f-dbbfd2b5eb38.JPG)
