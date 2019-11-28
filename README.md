@@ -1,8 +1,7 @@
 # SMS_CLASSIFICATION
 ## Overview
 #### Context
-The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages
-in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
+The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
 
 #### Content
 The files contain one message per line. Each line is composed by two columns: v1 contains the label (ham or spam) and v2 contains the 
@@ -28,8 +27,8 @@ message. The originate dataset can be found [here.]( https://www.kaggle.com/ucim
 The trained model is deployed by creating API for the model, using Flask, the Python micro framework for building web applications.To convert
 the .ipynb files to .py files nbcovert is used.
 
-```python
-jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
+```
+ jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
 ```
 
 ## Results
