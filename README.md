@@ -29,7 +29,7 @@ The trained model is deployed by creating API for the model, using Flask, the Py
 the .ipynb files to .py files nbcovert is used.
 
 ```python
-jupyter nbconvert --to script Path/notebook.ipynb
+jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
 ```
 
 ## Results
@@ -37,10 +37,10 @@ With Count Vectorizer
 
 | Model      | Score           | 
 | ------------- |:-------------:| 
-| Bernoulli NB      | 0.9793 | 
-| Logistic Regression      | 0.9793 |  
-| Decision Trees | 0.9676     |
-| Random Forest     | 0.9757 | 
+| Bernoulli NB      | 0.9794 | 
+| Logistic Regression      | 0.9794 |  
+| Decision Trees | 0.9677     |
+| Random Forest     | 0.9749 | 
 | Passive Aggressive      | 0.9811     |  
 
 
@@ -48,11 +48,11 @@ With Tf-idf Vectorizer
 
 | Model      | Score           | 
 | ------------- |:-------------:| 
-| Bernoulli NB      | 0.9793 | 
-| Logistic Regression      | 0.9640 |  
-| Decision Trees | 0.9667    |
-| Random Forest     | 0.9775 | 
-| Passive Aggressive      | 0.9802  | 
+| Bernoulli NB      | 0.9794 | 
+| Logistic Regression      | 0.9641 |  
+| Decision Trees | 0.9713    |
+| Random Forest     | 0.9785 | 
+| Passive Aggressive      | 0.9803  | 
 
 JSON Input to API 
 ![api](https://user-images.githubusercontent.com/58266508/69785749-dc05c900-11de-11ea-995e-8a2540f727a7.JPG)
