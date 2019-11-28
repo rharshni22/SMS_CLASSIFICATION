@@ -54,5 +54,8 @@ With Tf-idf Vectorizer
 | Random Forest     | 0.9775 | 
 | Passive Aggressive      | 0.9802  | 
 
-![input]("https://ibb.co/QX0ZJVv")
-![Screenshot]("C:\\Users\\LENOVO\\Pictures\\api.png")
+JSON Input to API 
+![api](https://user-images.githubusercontent.com/58266508/69785749-dc05c900-11de-11ea-995e-8a2540f727a7.JPG)
+
+Response of API
+
